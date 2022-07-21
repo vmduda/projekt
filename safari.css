@@ -264,7 +264,7 @@ border-radius: 5px;
     }
     .ko{
       justify-items: center;
-      margin-top: 25px;
+      margin-top: 10px;
       font-size: 26px;
     }
 
@@ -287,21 +287,18 @@ border-radius: 5px;
     .ub{
       
         justify-items: center;
-        margin-top: 25px;
+        margin-top: 10px;
         font-size: 26px;
        }
        .part{
         justify-items: center;
-        margin-top: 25px;
         font-size: 26px;
         
         }
       
 
 @media screen and (max-width : 950px) {
-  *{
-    background-color: pink;
-  }
+
 
   .nav-bar{
     display: flex;
@@ -316,13 +313,31 @@ border-radius: 5px;
     padding-top: 15px;
   }
  .kont{
-  padding: 1px;
+  
   background-color: olive;
  }
+ .part:hover{
+ background-color: seagreen;
  
-  
-  
+ }
+.part {
+  height: 30px;
+  font-size: 15px;
 
+}
+  
+.ko{
+  height: 30px;
+  font-size: 15px;
+}
+.ub{
+  height: 30px;
+  font-size: 15px;
+
+   }
+.kont{
+  height: 40px
+}
 }
 
        
