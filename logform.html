@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="logform.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="title">
+        <img src="./log1.png" class="title-logo">
+        <h2 class="title-header"><em>SOJ</em> Safari & Sansibar Beach</h2>
+      </div>
+      <div class = "nav-bar">
+    
+        <button class="dropbtn">Home
+            <div class="dropdown-content">
+          <a href="#" class="btn-link">Über uns</a>
+        </button>
+    
+          <div class="dropbtn">
+            Safari
+            <div class="dropdown-content">      
+              <a href="#" class="btn-link">National Parks</a>
+              <a href="#" class="btn-link">Kilimandscharo</a>
+              <a href="#" class="btn-link">Sansibar</a>
+            </div>  
+          </div>
+    
+     
+        <div class="dropbtn">Practische Informationen
+          <div class="dropdown-content">
+            <a href="#" class="btn-link">Beste Reisezeit</a>
+            <a href="#" class="btn-link">Corona Informations</a>
+          </div>
+        </div>
+    
+      </div>
+    
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search here" class="search-input">
+          <button type="search" class="search-button">🔎</button>
+        </form>
+      </div>
+    </div>
+    <br>
+    <br>
+
+<h3> Kontaktformular </h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Vorname</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Nachname</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Safari</label>
+    <select id="country" name="country">
+      <option value="mikumi">Mikumi</option>
+      <option value="sansibar">Sansibar</option>
+      <option value="usa">Kilimandscharo</option>
+      <option value="Mikumi">Mikumi National Park</option>
+      <option value="ngoro">Manyara National Park</option>
+      <option value="manya">Serengeti National Park</option>
+      <option value="manya">Ngorongoro National Park</option>
+    </select>
+
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<footer class="kont">
+    <div class="ub">
+      <a href="./assets/about.html">Über uns</a>
+    </div>
+
+    <div class="ko">
+      <a href="./kontakt.html">Kontakt</a>
+    </div>
+
+    <div>
+      <p>Designed by:
+        Victor Mduda<br> © July 2022.</p>
+    </div>
+  </footer>
+</body>
+</html>
